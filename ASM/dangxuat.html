@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng xuất</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <p>Xin chào, [tên người dùng]! <a href="#" onclick="logout()">Đăng xuất</a></p>
+</div>
+
+<!-- Bootstrap JS (đặt trước jQuery) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    function logout() {
+        // Thực hiện xử lý đăng xuất tại đây (ví dụ: xóa thông tin đăng nhập, chuyển hướng đến trang đăng nhập)
+
+        // Xóa thông tin đăng nhập (nếu có)
+        // localStorage.removeItem('accessToken'); // Đối với lưu trữ thông tin đăng nhập trong localStorage
+
+        // Chuyển hướng đến trang đăng nhập (ví dụ: index.html)
+        window.location.href = 'index.html';
+    }
+</script>
+
+</body>
+</html>

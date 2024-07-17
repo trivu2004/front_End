@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+    </head>
+
+    <body>
+        <!-- Modal trigger button -->
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Nhập Lương Tháng 12
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" >
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Nhập Lương Tháng 12</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" style="width: 500px;">
+                <div class="card text-center">
+                    <div class="card-header" style="text-align: left; font-size: 20px;">
+                        <i class="bi bi-pencil-square"></i>
+                      Nhập Lương Tháng 12
+                    </div>
+                    <div class="row"  style="text-align: left;">
+                        <div class="form-group col-sm-6 mt-4 mt-3">
+                            <label>Mã nhân viên</label>
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Mã Nhân Viên">
+                        </div>
+                    
+                        <div class="form-group col-sm-6 mt-4 mt-3">
+                            <label>Họ Và Tên</label>
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Họ Và Tên">
+                        </div>
+                    </div>
+                    <div class="row"  style="text-align: left;">
+                        <div class="form-group col-sm-6 mt-4 mt-3">
+                            <label>Câu Lạc Bộ</label>
+                            <div class="form-floating">
+                                <select class="form-select custom-select" id="floatingSelect" aria-label="Floating label select example">
+                                    <option value="1">Đà Nẵng</option>
+                                    <option value="2">Hải Phòng</option>
+                                    <option value="3">hà Nội</option>
+                                </select>
+                                <label for="floatingSelect">Chọn câu lạc bộ</label>
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-6 mt-4 mt-3">
+                            <label >Lương</label>
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Lương" style="height: 60px;">
+                        </div>
+                    </div>
+                    <div class="row"  style="text-align: left;">
+                        <div class="form-group col-sm-6 mt-4 mt-3">
+                            <label>Thưởng</label>
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Thưởng">
+                        </div>
+                        <div class="form-group col-sm-6 mt-4 mt-3 ">
+                            <label>Phụ Cấp</label>
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Phụ Cấp">
+                        </div>
+                    </div>
+    
+                    <div class="row" style="text-align: left;">
+                        <div class="form-group col-sm-12 mt-4">
+                            <label>Ghi Chú</label>
+                           <textarea class="form-control" rows="3" placeholder="Ghi Chú"></textarea>
+                        </div>
+                    </div>
+                  </div>
+        </div>
+        <div class="modal-footer mt-3 p-3">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            <i class="bi bi-floppy-fill"></i>Lưu</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+            <i class="bi bi-x-circle-fill"></i>Hủy</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        
+        <!-- Optional: Place to the bottom of scripts -->
+        <script>
+            const myModal = new bootstrap.Modal(
+                document.getElementById("modalId"),
+                options,
+            );
+        </script>
+        
+        <header>
+            <!-- place navbar here -->
+        </header>
+        <main></main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

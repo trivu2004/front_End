@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel with Cards</title>
+  <style>
+    /* Thêm các kiểu CSS cho carousel và card */
+    .carousel {
+      display: flex;
+      overflow: hidden;
+      width: 300px; /* Điều chỉnh kích thước của carousel theo ý muốn */
+    }
+
+    .card {
+      flex: 0 0 auto;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-right: 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-3">
+  
+    <div id="carouselExampleIndicators" class="carousel slide mt-5">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://hd1.hotdeal.vn/images/03-12-2014/tour%20maylay%20-thai/110876_body%20%2819%29.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../img/thailan.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="../img/singapore.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://media.istockphoto.com/id/590050726/vi/anh/singapore-ph%C3%A1t-s%C3%A1ng-v%C3%A0o-ban-%C4%91%C3%AAm.jpg?s=612x612&w=0&k=20&c=t-ItU_cwk0YuKN0zx21jF0-skzdxBpn1jCVRJcLU7yE=" class="d-block w-100 h-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+<script>
+  // Thêm JavaScript để xử lý trượt qua các card trong carousel
+  const carousel = document.querySelector('.carousel');
+  const cards = document.querySelectorAll('.card');
+
+  let currentIndex = 0;
+
+  function showCard(index) {
+    const cardWidth = cards[0].offsetWidth;
+    carousel.style.transform = `translateX(-${index * cardWidth}px)`;
+  }
+
+  // Xử lý sự kiện khi muốn chuyển đến card tiếp theo
+  function nextCard() {
+    currentIndex = (currentIndex + 1) % cards.length;
+    showCard(currentIndex);
+  }
+
+  // Gọi hàm để hiển thị card đầu tiên
+  showCard(currentIndex);
+
+  // Gọi hàm nextCard khi muốn chuyển đến card tiếp theo
+  // Có thể gán sự kiện này cho một nút "Next" trên giao diện
+  // Ví dụ: document.querySelector('#nextButton').addEventListener('click', nextCard);
+</script>
+
+</body>
+</html>

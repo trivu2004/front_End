@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chữ đổi màu và canh giữa trong Bootstrap 5</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @keyframes colorChange {
+            0% {
+                color: red;
+            }
+            25% {
+                color: blue;
+            }
+            50% {
+                color: green;
+            }
+            75% {
+                color: orange;
+            }
+            100% {
+                color: red;
+            }
+        }
+
+        .color-changing-text {
+            animation: colorChange 5s infinite;
+            text-align: center;
+            position: relative;
+        }
+
+        .underline {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 70%;
+            height: 2px;
+            background-color: black;
+        }
+
+        .overline {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 70%;
+            height: 2px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="color-changing-text">
+        <div class="overline"></div>
+        <p>Chữ đổi màu</p>
+        <div class="underline"></div>
+    </div>
+</div>
+
+<!-- Bootstrap JS (đặt trước jQuery) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+</body>
+</html>

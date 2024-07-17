@@ -1,0 +1,52 @@
+header{
+    position: relative;
+}
+.shopping-mall{
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    font-variant: small-caps;
+}
+nav{
+    font-size: 20px;
+}
+#ida{
+    border-radius: 10px;
+}
+#ida:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.shopping-mall h1{
+    font-family: Impact;
+    font-size:50px;
+    color: white;
+    letter-spacing: 0.3px;
+    text-shadow: 0 0 2px black;
+    padding-bottom: 0px;
+    border-bottom: 1px dotted gray;
+    margin: 0;
+}
+.shopping-mall h5{
+    margin-top: 5px;
+    letter-spacing: 0.5px;
+}
+
+.card-header{
+    background-color: gray;
+    border: 2px;
+    border-radius: 4px;
+}
+.card-footer{
+    background-color: gray;
+    border: 2px;
+}
+#ida1 :hover{
+    background-color: aqua;
+
+}
+#ida1{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}

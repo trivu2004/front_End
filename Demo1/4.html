@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-sm-6 col-md-4 col-lg-3 my-3" ng-repeat="p in products|  limitTo: 4| orderBy : sort " >
+      <div class="card shadow position-relative">
+        <img
+          class=""
+          src="{{p.image}}"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title color-changing-text1">{{p.name}}</h5>
+          <p class="color-changing-text1  m-0"><b>Giá: {{p.price | number}} đ</b></p>
+          <h5 class="card-title">{{p.khachsan}}: <img src="../img/{{p.imgsao}}.jpg" alt=""></h5>
+          <p>
+            <i class="fa-regular fa-clock"></i> Thời gian: {{p.duration}}
+            <br />
+            <i class="fa-regular fa-calendar"></i> Ngày đi: {{p.start}}
+          </p>
+          <div class="text-center">
+            <a href="#!detail/{{p.id}}"  class="btn btn-warning text-white">Xem chi tiết</a>
+            <button class="btn btn-warning  text-white " ng-click="addCart(p) ; themvao()">Thêm vào giỏ hàng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

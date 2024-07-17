@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký tài khoản</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+          background-color: #f8f9fa;
+        }
+    
+        .container {
+          max-width: 400px;
+        }
+    
+        .form-label {
+          font-weight: bold;
+        }
+    
+        .form-control {
+          border-radius: 6px;
+        }
+    
+        .btn-primary {
+          background-color: #007bff;
+          border: none;
+          border-radius: 6px;
+        }
+      </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="text-center mt-4">Form Đăng Ký</h1>
+    </header>
+
+<div class="container mt-5">
+    <div class="card" id="registrationCard">
+        <div class="card-body">
+            <form id="registrationForm">
+                <div class="mb-3">
+                    <label for="fullName" class="form-label">Họ và tên</label>
+                    <input type="text" class="form-control" id="fullName" name="fullName" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Mật khẩu</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <div class="mb-3">
+                    <label for="confirmPassword" class="form-label">Xác nhận mật khẩu</label>
+                    <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
+                </div>
+                <button type="button" class="btn btn-light btn-block" onclick="registerAccount()">Đăng ký</button>
+                <button type="button" class="btn btn-light btn-block" data-bs-dismiss="modal" onclick="closeModal()">Close</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Bootstrap JS (đặt trước jQuery) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    function registerAccount() {
+        // Lấy giá trị từ các trường input
+        var fullName = $('#fullName').val();
+        var email = $('#email').val();
+        var password = $('#password').val();
+        var confirmPassword = $('#confirmPassword').val();
+
+        // Kiểm tra xác nhận mật khẩu
+        if (password !== confirmPassword) {
+            alert('Mật khẩu và xác nhận mật khẩu không khớp.');
+            return;
+        }
+
+        // Thực hiện xử lý đăng ký tài khoản tại đây (ví dụ: gửi yêu cầu đến server)
+
+        // Hiển thị thông báo hoặc chuyển hướng đến trang khác tùy thuộc vào kết quả đăng ký
+        alert('Đăng ký thành công!');
+    }
+    function closeModal() {
+    // Your close modal logic goes here
+
+    // Redirect to the initial page (replace 'your-initial-page.html' with the actual URL)
+    window.location.href = 'index.html';
+  }
+</script>
+
+</body>
+</html>

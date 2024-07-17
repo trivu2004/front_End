@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Giỏ hàng du lịch</title>
+  
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: black;
+      text-align: center;
+      padding: 10px;
+    }
+
+    @media (min-width: 992px) {
+      body {
+        padding-top: 50px; /* Độ cao của thanh thanh toán cho màn hình lớn hơn (lg) */
+      }
+    }
+
+    /* Thêm CSS để căn giữa nội dung giỏ hàng */
+    .center-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    footer {
+    background-color: gray;
+    color: #fff;
+    padding: 20px 0;
+}
+footer img{
+    background-image: gray;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    text-decoration: none;
+}
+.footer-section ul li :hover {
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <div id="cart">
+    <h2>Giỏ hàng</h2>
+    <ul id="cart-items">
+        <!-- Danh sách sản phẩm trong giỏ hàng sẽ được thêm vào đây -->
+    </ul>
+</div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <div class="container">
+            <a class="navbar-brand fs-3" href="index.html">Trang chủ</a>
+            <h1>Giỏ Hàng Du Lịch</h1>
+          </div>
+        </nav>
+      </header>
+  
+  <div class="row">
+    <div class="col-md-8">
+      <div class="card mb-3">
+        <img src="../img/campuchia.png" class="card-img-top" alt="Ảnh đại diện">
+        <div class="card-body">
+          <h5 class="card-title">Tour du lịch Campuchia</h5>
+          <p class="card-text">Thời Gian: 2 ngày 1 đêm</p>
+          <p class="card-text">Vận chuyển: Hãng hàng không: VIETJET AIR</p>
+          <p class="card-text"><small class="text-muted">Giá: $500.00</small></p>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Số lượng</span>
+            <input type="number" class="form-control" value="1" min="1">
+          </div>
+          <button class="btn btn-primary">Thêm vào giỏ hàng</button>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="col-md-4">
+      <h5 class="mb-3">Giỏ hàng</h5>
+      <ul class="list-group">
+        <!-- Dữ liệu sản phẩm trong giỏ hàng sẽ được điền ở đây -->
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          Tour du lịch ABC
+          <span class="badge bg-primary rounded-pill">$500.00</span>
+        </li>
+        <!-- Thêm các dòng khác tương tự cho các sản phẩm khác -->
+      </ul>
+      <div class="mt-3">
+        <h6>Tổng cộng: $500.00</h6>
+        <a href="#" class="btn btn-success">Thanh toán</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <div class="card mb-3">
+        <img src="../img/chauau.jpeg" class="card-img-top" alt="Ảnh đại diện">
+        <div class="card-body">
+          <h5 class="card-title">Tour du lịch Châu Âu</h5>
+          <p class="card-text">Thời gian: 3 ngày 2 đêm</p>
+          <p class="card-text">Vận chuyển: Hãng hàng không: VIETJET AIR</p>
+          <p class="card-text"><small class="text-muted">Giá: $700.00</small></p>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Số lượng</span>
+            <input type="number" class="form-control" value="1" min="1">
+          </div>
+          <button class="btn btn-primary">Thêm vào giỏ hàng</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+        <h5 class="mb-3">Giỏ hàng</h5>
+        <ul class="list-group">
+          <!-- Dữ liệu sản phẩm trong giỏ hàng sẽ được điền ở đây -->
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Tour du lịch Châu Âu
+            <span class="badge bg-primary rounded-pill">$700.00</span>
+          </li>
+          <!-- Thêm các dòng khác tương tự cho các sản phẩm khác -->
+        </ul>
+        <div class="mt-3">
+          <h6>Tổng cộng: $700.00</h6>
+          <a href="#" class="btn btn-success">Thanh toán</a>
+        </div>
+      </div>
+    </div>
+  
+</div>
+<footer class="bg-body-dark text-center">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-facebook"></i></a>
+
+      <!-- Twitter -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-twitter"></i></a>
+
+      <!-- Google -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-google"></i></a>
+
+      <!-- Instagram -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-instagram"></i></a>
+
+      <!-- Linkedin -->
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="bi bi-linkedin"></i></a>
+
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form5Example24" class="form-control" />
+              <label class="form-label" for="form5Example24">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Du lịch không chỉ là việc di chuyển giữa các địa điểm, mà còn là hành trình khám phá văn hóa mới,
+         tận hưởng những cảnh đẹp tuyệt vời và tạo ra những kí ức đáng nhớ suốt đời
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Liên Hệ</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">31 Nguyễn Văn Thủ, P. Đa Kao, Q.1, TP.HCM</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">
+                +84 934 8888 54</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">info@fittour.com.vn</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Thông Tin</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">Về Chúng Tôi</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Chính Sách Bảo Mật</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Điều Khoản Dịch Vụ</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Tài Khoản Thanh Toán</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Giới Thiệu</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">Về Chúng Tôi</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Hướng Dẫn Thanh Toán</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Hướng Dẫn Đặt Tour</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Tour Khuyến Mãi</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Tài Nguyên</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a class="text-body" href="#!">Tour Du Lịch Nước Ngoài</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Blog</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Emagazine</a>
+            </li>
+            <li>
+              <a class="text-body" href="#!">Hình Ảnh Du Lịch</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: darkslateblue">
+    <p>&copy; 2024 CT Tourist Destinations. All rights reserved.</p>
+  </div>
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/65a922fc0ff6374032c1c6e4/1hkeb1b1t';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

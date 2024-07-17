@@ -1,0 +1,106 @@
+[
+    {
+        "id": "id1",
+        "img": "https://www.thethaodaiviet.vn/images/201512/goods_img/xa-da-nang-royal-8108-g9261450731887063.jpg?v=1.0.0",
+        "title": "Title 1",
+        "text": "Some text for card 1",
+        "price": "1000000"
+    },
+    {
+        "id": "id2",
+        "img": "https://www.thethaodaiviet.vn/images/201701/goods_img/don-ta-1m8-g8471484853256090.jpg?v=1.0.0",
+        "title": "Title 2",
+        "text": "Some text for card 2",
+        "price": "2000000"
+    },
+    {
+        "id": "id3",
+        "img": "https://www.thethaodaiviet.vn/images/201701/goods_img/don-ta-1-5m-g7931484852579026.jpg?v=1.0.0",
+        "title": "Title 3",
+        "text": "Some text for card 3",
+        "price": "3000000"
+    },
+    {
+        "id": "id4",
+        "img": "https://www.thethaodaiviet.vn/images/201401/goods_img/taj-tay-nhua-g901388957805077.jpg?v=1.0.0",
+        "title": "Title 4",
+        "text": "Some text for card 4",
+        "price": "4000000"
+    },
+    {
+        "id": "id5",
+        "img": "https://www.thethaodaiviet.vn/images/201401/goods_img/ghe-tap-ta-da-nang-sp-310-1-g3721390165688050.jpg?v=1.0.0",
+        "title": "Title 5",
+        "text": "Some text for card 5",
+        "price": "5000000"
+    },
+    {
+        "id": "id6",
+        "img": "https://www.thethaodaiviet.vn/images/201701/goods_img/ta-dia-boc-cao-su-phi-50-g10751484855030057.jpg?v=1.0.0",
+        "title": "Title 6",
+        "text": "Some text for card 6",
+        "price": "10000000"
+    },
+    {
+        "id": "id7",
+        "img": "https://www.thethaodaiviet.vn/images/201701/goods_img/ta-tay-cao-su-phong-gym-g10741484854815053.jpg?v=1.0.0",
+        "title": "Title 7",
+        "text": "Some text for card 7",
+        "price": "12000000"
+    },
+    {
+        "id": "id8",
+        "img": "https://www.thethaodaiviet.vn/images/201607/goods_img/xa-don-xa-kep-da-nang-dalps-fitness-g10051469069246063.jpg?v=1.0.0",
+        "title": "Title 8",
+        "text": "Some text for card 8",
+        "price": "9000000"
+    },
+    {
+        "id": "id9",
+        "img": "https://file.hstatic.net/1000197303/article/screen_shot_2022-10-21_at_18.30.51_64c0919edc72481391e3f79adfec2076_grande.png",
+        "title": "Title 9",
+        "text": "Some text for card 9"
+    },
+    {
+        "id": "id10",
+        "img": "https://file.hstatic.net/1000197303/article/screen_shot_2022-09-13_at_13.36.46_fcc9fa2fdd2146e1b5b459417ecfa199_grande.png",
+        "title": "Title 10",
+        "text": "Some text for card 10"
+    },
+    {
+        "id": "id11",
+        "img": "https://file.hstatic.net/1000197303/article/5_91ada0952f5844db8e3fcaf8eb838814_grande.jpg",
+        "title": "Title 11",
+        "text": "Some text for card 11"
+    },
+    {
+        "id": "id12",
+        "img": "https://file.hstatic.net/1000197303/article/4_1d5e08d7770e475f9978f1da31063620_grande.jpg",
+        "title": "Title 12",
+        "text": "Some text for card 12"
+    },
+    {
+        "id": "id13",
+        "img": "https://file.hstatic.net/1000197303/article/4_e7ad40ccc26d45c4a43ff231e3be65fa_grande.jpg",
+        "title": "Title 13",
+        "text": "Some text for card 13"
+    },
+    {
+        "id": "id14",
+        "img": "https://file.hstatic.net/1000197303/article/thumbnail_f21e824a8fdd4eefacf3b40bd9fcdd82_grande.jpeg",
+        "title": "Title 14",
+        "text": "Some text for card 14"
+    },
+    {
+        "id": "id15",
+        "img": "https://file.hstatic.net/1000197303/article/slider_mb_11065663819e4c2dbee5263e3bb4c55b_grande.jpg",
+        "title": "Title 15",
+        "text": "Some text for card 15"
+    },
+    {
+        "id": "id16",
+        "img": "https://file.hstatic.net/1000197303/article/3_2dae4dc7a2084abbba282e5f498a70e2_grande.jpg",
+        "title": "Title 16",
+        "text": "Some text for card 16"
+    }
+]

@@ -1,0 +1,11 @@
+.cards-wrapper{
+    display: flex;
+}
+.card{
+    margin: 0.5rem;
+    width: calc(100%/4);
+}
+.ida :hover{
+    transform: scale(0.9);
+    filter: drop-shadow(10px 7px 10px orange);
+}

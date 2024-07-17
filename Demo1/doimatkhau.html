@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Password</title>
+    <link rel="stylesheet" href="login.css">
+    </style>
+</head>
+<body>
+
+    <hr class="mt-5 ">
+    <div class="form-container sign-in-container mt-5">
+        <form>
+            <h1>Đổi mật khẩu</h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="social"><i class="bi bi-google"></i></a>
+                <a href="#" class="social"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <span>or use your account</span>
+            <input placeholder="Password Mới" ng-model="matkhau"/>
+            <input placeholder="Nhập lại Password Mới"  ng-model="matkhaumoi"/>
+
+            <div class="g-recaptcha" data-sitekey="6LfHPFYpAAAAAKmds8bIMQnUJvlGEXx04sreHrWN"></div>
+            <button ng-click="doimatkhau()">Đổi mật khẩu</button>
+        </form>
+    </div>
+
+    <!-- <script>
+        function changePassword() {
+            var currentPassword = document.getElementById('currentPassword').value;
+            var newPassword = document.getElementById('newPassword').value;
+            var confirmPassword = document.getElementById('confirmPassword').value;
+
+            if (newPassword !== confirmPassword) {
+                alert("aa.");
+                return;
+            }
+
+            alert("ko.");
+            
+            document.getElementById('currentPassword').value = '';
+            document.getElementById('newPassword').value = '';
+            document.getElementById('confirmPassword').value = '';
+        }
+    </script> -->
+
+</body>
+</html>

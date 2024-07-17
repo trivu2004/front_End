@@ -1,0 +1,79 @@
+[
+    {
+        "id" : "1",
+        "name": "Đầm Venus Dress",
+        "img":"img/sp1.webp",
+        "price": "3000000",
+        "sale":"25%",
+        "price_after":"2.300.000đ"
+
+    },
+    {
+        "id" : "2",
+        "name": "Đầm dạ hội Raya-2",
+        "img":"img/sp2.webp",
+        "price": "1000000",
+        "sale":"25%",
+        "price_after":"2.300.000đ"
+
+
+    },
+    {
+        "id" : "3",
+        "name": "Đầm voan tầng Ruby",
+        "img":"img/sp3.webp",
+        "price": "2000000",
+        "sale":"25%",
+        "price_after":"2.300.000đ"
+
+
+    },
+    {
+        "id" : "4",
+        "name": "Đầm xoè Taylor",
+        "img":"img/sp4.webp",
+        "price": "4000000",
+        "sale":"25%",
+        "price_after":"2.300.000đ"
+
+
+    },
+    {
+        "id" : "5",
+        "name": "Đầm xoè Taylor",
+        "img":"https://product.hstatic.net/200000525857/product/upload_702c96a1987f482bb174d31422886442_large.jpg",
+        "price": "5000000",
+        "sale":"25%",
+        "price_after":"2.300.000đ"
+    },
+    {
+        "id" : "6",
+        "name": "Đầm xoè Taylor",
+        "img":"https://product.hstatic.net/200000525857/product/upload_62f4179828f74e099699d904c011656c_large.jpg",
+        "price": "6000000",
+        "sale":"25%",
+        "price_after":"2.300.000đ"
+
+
+    },
+    {
+        "id" : "7",
+        "name": "Đầm xoè Taylor Brand",
+        "img":"https://product.hstatic.net/200000525857/product/upload_d9dda3c0cb5141be892742c21834b006_large.jpg",
+        "price": "9000000",
+        "sale":"25%",
+        "price_after":"2.300.000đ"
+
+
+    },
+    {
+        "id" : "8",
+        "name": "Đầm xoè Taylor",
+        "img":"https://product.hstatic.net/200000525857/product/upload_b67c27a1a76e4ef2b499279c9ba8e02a_large.jpg",
+        "price": "8000000",
+        "sale":"25%",
+        "price_after":"2.300.000đ"
+
+
+    }
+]

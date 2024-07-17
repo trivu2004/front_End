@@ -1,0 +1,385 @@
+[
+    {
+        "id": "p1",
+        "name": "Du Lịch Hồng Kông 4N3Đ Q2,3/2024 (BAY VJ)",
+        "kind": "trong nước",
+        "image": "https://congdankhuyenhoc.qltns.mediacdn.vn/zoom/700_438/449484899827462144/2022/8/22/apore-ban-nhat-dinh-phai-ghe-qua-top-su-that-thu-vi-ve-dat-nuoc-singapore-hinh-7-a12383fe-df9d-4ce4-952b-3286adf47d40-1661145-1-0-401-640-crop-16611450513501163981543.jpg",
+        "thumbnail": [
+            "https://jtravel.com.vn/wp-content/uploads/2022/10/du-lich-hong-kong.jpg",
+            "https://res.klook.com/image/upload/q_85/c_fill,w_750/v1694601051/hflope7relbg2drhwp1v.jpg",
+            "https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/shutterstock289001804supersize-1676435777554.jpg",
+            "https://cand.com.vn/Files/Image/thanhbinh/2017/07/05/a5761d77-bffc-4485-badb-03b58f8ca648.jpg",
+            "https://www.cathaypacific.com/content/dam/destinations/hong-kong/cityguide-gallery/hong-kong_cityscape_920x500.jpg"
+        ],
+        "price": 5900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "4 ngày 3 đêm",
+        "hotel": 3,
+        "start": "02/09/2024",
+        "title" : "Khu phố cổ The Rocks – thường được ví như “bảo tàng Sydney ngoài trời” bởi nơi này hội tụ cả quá khứ và hiện tại của thành phố Sydney. Khu The Rocks nằm kề cầu cảng Sydney là nơi những người da trắng đầu tiên đến định cư ở Úc, bởi thế nó được xem là cội nguồn hình thành nên thành phố Sydney và đất nước Úc."
+    },
+    {
+        "id": "p2",
+        "name": "Tour Úc: HCM - Sydney - Melbourne 8N7Đ, Bay VJ",
+        "kind": "trong nước",
+        "image": "https://hd1.hotdeal.vn/images/03-12-2014/tour%20maylay%20-thai/110876_body%20%2819%29.jpg",
+        "thumbnail": [
+            "https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/1178445745-copy-1674668916271.jpg",
+            "https://www.vietnambooking.com/wp-content/uploads/2018/11/dulich-nuoc-uc-6n5d-kham-pha-thanh-pho-sydney-melbourne-20112018-7.jpg",
+            "https://goldensmiletravel.com/uploads/images/2023/05/05/thanh-pho-uc-1-1683264612.png",
+            "https://hongngocha.com/wp-content/uploads/2019/04/DU-L%E1%BB%8ACH-%C3%9AC-%C4%90%E1%BA%A4T-N%C6%AF%E1%BB%9AC-C%E1%BB%A6A-NH%E1%BB%AENG-CH%C3%9A-CHU%E1%BB%98T-T%C3%9AI-1.jpg",
+            "https://cdn.tgdd.vn/Files/2021/07/12/1367624/huong-dan-kinh-nghiem-du-lich-bui-uc-tron-ven-va-day-du-nhat-202206041001354232.jpeg"
+        ],
+        "price": 6900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "3 ngày 2 đêm",
+        "hotel": 4,
+        "start": "02/09/2024",
+        "title": "Úc là Thành phố lớn nhất và nổi tiếng nhất Úc.Cây cầu Sydney và Nhà hát Opera Sydney là điểm tham quan nổi tiếng.Bãi biển Bondi là một điểm đến phổ biến cho người thích biển."
+    },
+    {
+        "id": "p3",
+        "name": "Tour Châu Âu: HCM - Đức - Hà Lan-Bỉ-Pháp-Thụy Sỹ",
+        "kind": "trong nước",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3ZR5svIcxCvaZpPz3BKsFhlnupCKDbFjnWw&usqp=CAU",
+        "thumbnail": [
+            "https://www.visaliendaiduong.com/Uploaded/Users/doanduong/images/2019/du-lich-chau-au-1.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-91G7Y5MYt8amVvQ0LyJMYoD2TlwR9FrUCRjVtNvnkiN-6X0G9o07rAUrpylApbWE05M&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbIFKKEDqEPpffg8TAccA6-YFS9Pp9n21JWOBz7Q4O77y0dh-KSGhHdu6KbR3JLtfdjJw&usqp=CAU",
+            "https://worldtrip.vn/view/admin/Themes/kcfinder/upload/images/Ph%C3%A1p%20(tour%206%20n%C6%B0%E1%BB%9Bc).jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvF2oFNZdlCFEbeRmv4r0Sa5kJypn1-RhySuwy6U_R38ZZ-LuEleVdtPOiyRcDT3l-3qw&usqp=CAU"
+        ],
+        "price": 5900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "9 ngày 8 đêm",
+        "hotel": 4,
+        "start": "01/09/2024",
+        "title": "Châu Âu là một lục địa đa dạng với văn hóa, lịch sử, và địa lý phong phú. Dưới đây là một số điểm đặc sắc và thông tin về tour du lịch Châu Âu:"
+
+    },
+    {
+        "id": "p4",
+        "name": "Tour Đi Châu Âu: Hà Nội - Pháp - Thụy Sỹ",
+        "kind": "trong nước",
+        "image": "../img/nhatban.jpeg",
+        "thumbnail": [
+            "https://vcdn1-dulich.vnecdn.net/2022/05/12/Hanoi2-1652338755-3632-1652338809.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=NxMN93PTvOTnHNryMx3xJw",
+            "https://suckhoedoisong.qltns.mediacdn.vn/Images/thanhloan/2020/11/28/Nam-2030-du-lich-ha-noi-phan-dau-tro-thanh-nganh-kinh-te-mui-nhon-cua-thu-do-19.jpg",
+            "https://www.shutterstock.com/image-photo/ha-noi-vietnam-may-08-600w-2310555161.jpg",
+            "https://cafebiz.cafebizcdn.vn/162123310254002176/2023/1/16/hanoi-1673872948047908681909-1673912081970-1673912083240190714995.jpeg",
+            "https://hnm.1cdn.vn/2020/06/10/nhipsonghanoi.hanoimoi.com.vn-uploads-images-tuandiep-2020-06-09-_1hphong.jpg"
+        ],
+        "price": 4900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "3 ngày 2 đêm",
+        "hotel": 3,
+        "start": "5/09/2024"
+    },
+    {
+        "id": "p5",
+        "name": "Tour du lịch Bắc Âu: Hà Nội - Đan Mạch - Nauy - Thụy Điển - Phần Lan",
+        "kind": "trong nước",
+        "image": "../img/dongthap.png",
+        "thumbnail": [
+            "https://duhocvic.com/images/dan-mach.jpg",
+            "https://sakos.vn/wp-content/uploads/2023/08/Du-an-moi-1-5.png",
+            "https://wiki-travel.com.vn/uploads/post/thanhhuong-182807022829-dan-mach.jpg",
+            "https://ik.imagekit.io/tvlk/blog/2021/10/du-lich-dan-mach-2.jpg?tr=dpr-2,w-675",
+            "https://www.achautravel.com/upload/images/1559901779-detail-post.jpeg"
+        ],
+        "price": 3900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "4 ngày 3 đêm",
+        "hotel": 4,
+        "start": "02/09/2024"
+    },
+    {
+        "id": "p6",
+        "name": "Tour Đà Nẵng - Bà Nà - Hội An - Huế - Quảng Bình, Khởi hành",
+        "kind": "trong nước",
+        "image": "../img/phuquoc.jpeg",
+        "thumbnail": [
+            "https://tourism.danang.vn/wp-content/uploads/2023/02/cau-rong-da-nang-1350x900.jpeg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVgw3YACMtiKX7GtKtEo0IZLswiGUQUGDWiCYHlUN_9Y7Tq2ftq-HQJG3_aLVGTm1rnXk&usqp=CAU",
+            "https://baohagiang.vn/file/4028eaa4679b32c401679c0c74382a7e/042023/image001_20230421175740.png",
+            "https://phuquocxanh.com/vi/wp-content/uploads/2023/05/da-nang-3.jpg",
+            "https://static.vinwonders.com/production/du-lich-da-nang-thang-7-thumb-1.jpg"
+        ],
+        "price": 4900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "4 ngày 3 đêm",
+        "hotel": 3,
+        "start": "26/10/2024",
+        "title": "Đà Nẵng, thành phố ven biển nằm ở trung tâm Việt Nam, là một điểm đến du lịch phổ biến với nhiều điểm độc đáo và đa dạng. Dưới đây là một số thông tin về tour du lịch Đà Nẵng:"
+    },
+    {
+        "id": "p7",
+        "name": "Tour đi Phú Quốc, HCM - Phú Quốc - Câu Cá - Lặn Ngắm San Hô",
+        "kind": "trong nước",
+        "image": "../img/nhatrang.jpeg",
+        "thumbnail": [
+            "https://cdn.baokiengiang.vn/uploads/image/2023/07/17/KGO_20230717_VG1-1(1).jpg",
+            "https://hnm.1cdn.vn/2023/10/17/a203.jpg",
+            "https://dulichhappytour.com/public/userfiles/PHU-QUOC/phuquoc.jpg",
+            "https://cdn.tcdulichtphcm.vn/upload/1-2023/images/2023-01-08/1673168165-phuquoc.png",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo05MPIDNZmsMRdwMpbZZ2fz1UwHGBvM8qeANR5gVkKTMz65gVz0ZVxQpozEOzfm-ZNL8&usqp=CAU"
+        ],
+        "price": 3900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "3 ngày 2 đêm",
+        "hotel": 3,
+        "start": "27/10/2024"
+    },
+    {
+        "id": "p8",
+        "name": "Tour đi Phú Quốc - Cáp Treo Hòn Thơm - Grandworld + Tàu cao tốc",
+        "kind": "trong nước",
+        "image": "../img/ninhchu.jpeg",
+        "thumbnail": [
+            "https://sctravel.vn/wp-content/uploads/2022/10/Grand-World-Phu-Quoc-1.jpg",
+            "https://vietluxtour.com/Upload/images/2022/phu-quoc/DJI_0186-scaled.jpg",
+            "https://www.dongtravel.com/files/blog/9/grand-world-phu-quoc-dongtravel.jpg",
+            "https://cdn.tcdulichtphcm.vn/upload/1-2023/images/2023-01-08/1673168165-phuquoc.png",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo05MPIDNZmsMRdwMpbZZ2fz1UwHGBvM8qeANR5gVkKTMz65gVz0ZVxQpozEOzfm-ZNL8&usqp=CAU"
+        ],
+        "price": 3900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "5 ngày 4 đêm",
+        "hotel": 3,
+        "start": "25/9/2024"
+    },
+    {
+        "id": "p9",
+        "name": "Hành Trình Xuyên Việt Khám Phá Vẻ Đẹp Đất Nước Việt Nam",
+        "kind": "quốc tế",
+        "image": "https://saigonthanhcong.com/img_data/images/tour-xuyen-viet-2985543281276.jpg",
+        "thumbnail": [
+            "https://cdn.tuoitre.vn/thumb_w/640/2018/3/15/vietnam-ha-long-1521047957480199284429.jpg",
+            "https://wiki-travel.com.vn/Uploads/picture/camnhi-194430114439-quang-binh.jpg",
+            "https://wiki-travel.com.vn/Uploads/picture/camnhi-194130114130-vinh-ha-long.jpg",
+            "https://wiki-travel.com.vn/Uploads/picture/camnhi-194830114803-phu-quoc.jpg",
+            "https://wiki-travel.com.vn/Uploads/picture/camnhi-194330114322-hue.jpg"
+        ],
+        "price": 5900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "4 ngày 3 đêm",
+        "hotel": 4,
+        "start": "22/09/2024"
+    },
+    {
+        "id": "p10",
+        "name": "Tour Đà Nẵng - Bà Nà - Hội An - Rừng Dừa Bảy Mẫu",
+        "kind": "quốc tế",
+        "image": "https://image.kkday.com/v2/image/get/w_960%2Cc_fit%2Cq_55%2Ct_webp/s1.kkday.com/product_152265/20230916170359_sCJpQ/jpg",
+        "thumbnail": [
+            "thailan1",
+            "thailan2",
+            "thailan3"
+        ],
+        "price": 5900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "4 ngày 3 đêm",
+        "hotel": 3,
+        "start": "21/09/2024"
+    },
+    {
+        "id": "p11",
+        "name": "Tour du lịch Đài Loan, HCM - Đài Trung - Cao Hùng - Đài Bắc - Đào",
+        "kind": "quốc tế",
+        "image": "https://c1.wallpaperflare.com/preview/843/155/800/da-nang-vietnam-danang-vietnamese.jpg",
+        "thumbnail": [
+            "https://bazanxanh.com/wp-content/uploads/2018/12/duong-pho-hoi-an.jpg",
+            "https://www.quangbinhtravel.vn/wp-content/uploads/2017/05/banahill.jpg",
+            "https://dulichngoisaomoi.com/uploads/tour/2020_10/mien-trung/da-nang-hue/da-nang2.jpg",
+            "https://hotelnikkohanoi.com.vn/wp-content/uploads/2023/03/cach-di-ba-na-hills-1.png",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsNEGPv_cEeB4cQeaf-h0hKKzQOGs70dPLBQ&usqp=CAU"
+        ],
+        "price": 5900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "6 ngày 5 đêm",
+        "hotel": 3,
+        "start": "15/09/2024"
+    },
+    {
+        "id": "p12",
+        "name": "Tour Du Lịch Bali 4N3Đ, Khởi hành từ Hà Nội",
+        "kind": "quốc tế",
+        "image": "https://nhadepso.com/wp-content/uploads/2023/02/anh-phong-canh-trung-quoc_4.jpg",
+        "thumbnail": [
+            "https://media-cdn.tripadvisor.com/media/photo-m/1280/2a/c7/f1/d3/caption.jpg",
+            "https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/shutterstock1594185793-1653847221003.jpg",
+            "https://whereismai.com/wp-content/uploads/2023/02/IMG_0057-scaled-e1677209214551.jpeg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9KmH7JzJu_owejmm3SRoXmkpiZI9qaQc9bhO2A4zAZ3blC6_RBduY_K0tYwyk9gt4GtU&usqp=CAU",
+            "https://res.klook.com/image/upload/q_85/c_fill,w_750/v1684920975/blog/sqj5ugntvr2olhzkmmln.jpg"
+        ],
+        "price": 9900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "4 ngày 3 đêm",
+        "hotel": 3,
+        "start": "02/09/2024"
+    },
+    {
+        "id": "p13",
+        "name": "Du Lịch Miền Tây: Hà Nội - Sài Gòn - Đồng Tháp - Châu Đốc - Cần Thơ",
+        "kind": "quốc tế",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLMb5gPmQ7_crnD49lsNNtB5ZsaIsdpTgiEA&usqp=CAU",
+        "thumbnail": [
+            "https://mykhanh.com/files/images/image9.png",
+            "https://tptravel.com.vn/mediacenter/media/images/1850/news/ava/s900_0/du-lich-mien-tay-nam-bo-1522637289.jpg",
+            "https://puolotrip.com/wp-content/uploads/2023/11/an-giang-mien-tay.jpg",
+            "https://cand.com.vn/Files/Image/honghai/2020/05/26/93c02255-98e7-412c-8f55-736532288485.jpg",
+            "https://bvhttdl.mediacdn.vn/291773308735864832/2023/9/7/chonoi-1694076469156-16940764692721622183288.jpg"
+        ],
+        "price": 8900000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "4 ngày 3 đêm",
+        "hotel": 3,
+        "start": "12/09/2024"
+    },
+    {
+        "id": "p14",
+        "name": "Tour Phuket: HCM - Phuket - Đảo Phi Phi - Vịnh Maya",
+        "kind": "quốc tế",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMGIQH6Vh3EL9r77H7O3oqzoE4UBHZx8Zzg&usqp=CAU",
+        "thumbnail": [
+            "https://owa.bestprice.vn/images/destinations/uploads/phuket-543f2831d2dd8.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/514319984.jpg?k=395e1989e2982f388801f3cb06c3440b180209c3eb63f06500a3784dc1452113&o=&hp=1",
+            "https://metaeventtravel.vn/wp-content/uploads/2023/03/Hanh-trinh-1-ngay-o-phuket.jpg",
+            "https://owa.bestprice.vn/images/articles/uploads/du-lich-phuket-mua-nao-dep-nhat-5e61bfe060aef.jpg",
+            "https://cdn.britannica.com/90/213590-050-D081F29C/Phuket-Thailand.jpg"
+        ],
+        "price": 270000000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "5 ngày 4 đêm",
+        "hotel": 3,
+        "start": "30/09/2024"
+    },
+    {
+        "id": "p15",
+        "name": "HCM - Trương Gia Giới - Phượng Hoàng Cổ Trấn 5N4Đ",
+        "kind": "quốc tế",
+        "image": "https://imagescdn.pystravel.vn/uploads/posts/avatar/1673239723.jpg",
+        "thumbnail": [
+            "https://vietluxtour.com/Upload/images/2023/NuocNgoai/TrungQuoc/TruongGiaGioi01.jpeg",
+            "https://ik.imagekit.io/tvlk/blog/2021/11/kinh-nghiem-du-lich-truong-gia-gioi-7.jpg?tr=dpr-2,w-675",
+            "https://anphutruongthinh.com/vnt_upload/tour/07_2019/thumbs/780_crop_phuong-hoang-c%E1%BB%95-tr%E1%BA%A5n.jpg",
+            "https://saigontourist.net/uploads/destination/NuocNgoai/Trungquoc/Phuong-hoang-co-tran/Fenghuang_1131697631.jpg",
+            "https://www.kynghidongduong.vn/userfiles/images/tour-nuoc-ngoai/phuong-hoang-co-tran/nui-that-tinh-truong-gia-gioi-du-lich-phuong-hoang-co-tran-kynghidongduong-009.jpg"
+        ],
+        "price": 12000000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "5 ngày 4 đêm",
+        "hotel": 4,
+        "start": "5/09/2024"
+    },
+    {
+        "id": "p16",
+        "name": "Tour Bali: HCM - Bali - Đảo Rùa - Nusa Pendia Sóng Lưng Khủng",
+        "kind": "quốc tế",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeEh_fbXHrnAGPkR0UFsmDQVQPfZdel041Rw&usqp=CAU",
+        "thumbnail": [
+            "https://luhanhvietnam.com.vn/tour-indonesia/wp-content/uploads/2022/05/dao-rua-bali-2.jpg",
+            "https://vietluxtour.com/Upload/Images/Ban%20tin/2014/1.Khung%20canh%20tua%20thien%20duong%20o%20Bali.jpg",
+            "https://phuonghoangtours.com/sites/default/files/pictures/dao-rua-du-lich-trung-quoc.jpg",
+            "https://static-images.vnncdn.net/files/publish/2022/8/14/hon-bay-canh-378.jpg",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/f5/3e/e5/nusa-penida-island.jpg?w=1200&h=-1&s=1"
+        ],
+        "price": 35000000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "9 ngày 8 đêm",
+        "hotel": 3,
+        "start": "23/09/2024"
+    },
+    {
+        "id": "p17",
+        "name": "DU LỊCH CHÂU ÂU: PHÁP - THỤY SỸ 2024",
+        "kind": "quốc tế",
+        "image": "https://trieuhaotravel.vn/Uploads/files/ncvy/Top_nhu_ng_diem_du_lich_hap_dan_tai_Frankfurt_2023.jpg?width=300",
+        "thumbnail": [
+            "https://www.khanhantravel.com.vn/backend/web/uploads/images/thap-eiffel-diem-du-lich-nuoc-phap-2017_du-lich-viet.jpg",
+            "https://deviet.vn/wp-content/uploads/nhung-dia-diem-du-lich-phap.jpg",
+            "https://media.vneconomy.vn/w800/images/upload/2023/01/16/phao.png",
+            "https://vnn-imgs-f.vgcloud.vn/2022/03/04/16/vi-sao-phap-la-quoc-gia-duoc-nhieu-du-khach-ghe-tham-nhat-the-gioi-1.jpg",
+            "https://a.tcnn.vn//Images/images/Untitled_131.jpg"
+        ],
+        "price": 35000000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "9 ngày 8 đêm",
+        "hotel": 3,
+        "start": "11/09/2024"
+    },
+    {
+        "id": "p18",
+        "name": "DU LỊCH CHÂU ÂU : KHÁM PHÁ ĐÔNG ÂU HUNGARY - SLOVAKIA - ÁO - CH SÉC - ĐỨC - BA LAN (2024)",
+        "kind": "quốc tế",
+        "image": "https://trieuhaotravel.vn/Uploads/images/nhtrang/Ph%C3%A1p%20-%20Th%E1%BB%A5y%20S%E1%BB%B9%20-%20%C3%9D%20-%20Vatican/Thap_effiel.png?width=300",
+        "thumbnail": [
+            "https://i.natgeofe.com/k/e965ea18-80fa-4205-a1df-3ec327ddb567/hungary-budapest.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUMGzSaUgZPUu0TMXCB1znIliXkfoRYan78ugj6LBCIZOfrDo0s14OwDOgm6KcfRRk7oc&usqp=CAU",
+            "https://www.ibs-b.hu/media/images/hungarian_parliamen.2e16d0ba.fill-800x600.jpegquality-80.jpg",
+            "https://lp-cms-production.imgix.net/2019-06/28484363.jpg?auto=format&w=1920&h=640&fit=crop&crop=faces,edges&q=75",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM07Ey9JrXTuAbvFq3sBk-8o-BB5cgFMfa6A&usqp=CAU"
+        ],
+        "price": 35000000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "9 ngày 8 đêm",
+        "hotel": 3,
+        "start": "7/09/2024"
+    },
+    {
+        "id": "p19",
+        "name": "DU LỊCH CHÂU ÂU: KHÁM PHÁ LIÊN BANG NAM TƯ CŨ (2024)",
+        "kind": "quốc tế",
+        "image": "https://trieuhaotravel.vn/Uploads/files/ncvy/le_hoi_hoa_keukenhof_1024x678.png?width=300",
+        "thumbnail": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXPvi9IZHHpqhWChXacNacMFsELM62ItmYcSU6sk1vM_HnXtN_wQdep4sPBARq0RcOS68&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwX9oPQKLxDMdwQBHK6H63Co6q9jo85MhNX8cI1S6OGg39V66C5Hma_yqgNkkg0NdVkys&usqp=CAU",
+            "https://ik.imagekit.io/tvlk/blog/2021/10/du-lich-nga-cover.jpg",
+            "https://danhnamtravel.vn/Uploads/images/kinhnghiemdlnga/du-lich-nga-tien-phong-travel-3-1559100581.jpg",
+            "https://lh3.googleusercontent.com/proxy/q9_3dR42132u4HpxD21YfeRin33Cqint_nYVUhObhgxOcdf9WSi8xFVr5TUljdlCE_QRqsgajOI6JaoifAw1VPTstFwH_InU73nTD4f2gmXeDJEnbm_cDAveOLUjafaAaSQuWr0GwAZCYOlosNG0lDl7rAcFVs17NmhnBco"
+        ],
+        "price": 35000000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "9 ngày 8 đêm",
+        "hotel": 3,
+        "start": "6/09/2024"
+    },
+    {
+        "id": "p20",
+        "name": "DU LỊCH CHÂU ÂU: PHÁP - LUXEMBOURG – BỈ - ĐỨC - HÀ LAN T3,4,5/ 2024",
+        "kind": "quốc tế",
+        "image": "https://trieuhaotravel.vn/Uploads/files/ncvy/Top_nhu_ng_diem_du_lich_hap_dan_tai_Frankfurt_2023.jpg?width=300",
+        "thumbnail": [
+            "https://www.congdantoancau.info/wp-content/uploads/2023/01/luxembourg-o-dau-1-min-1.jpg",
+            "https://ichef.bbci.co.uk/news/640/cpsprodpb/116DE/production/_114709317_cebed9b9-4f4e-42e2-af3c-0622cf352e00.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNqZUve6qgAAgCJqgZIxzakexeC_ITCJQXHQ&usqp=CAU",
+            "https://eutrip.vn/view/admin/Themes/kcfinder/upload/images/7(9).jpg",
+            "https://visaf.vn/wp-content/uploads/2019/09/Brussels-600x400xc.jpg"
+        ],
+        "price": 35000000,
+        "khachsan": "Khách Sạn",
+        "imgsao": "5",
+        "duration": "9 ngày 8 đêm",
+        "hotel": 3,
+        "start": "13/09/2024"
+    }
+]

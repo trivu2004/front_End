@@ -1,0 +1,112 @@
+<style>
+  body {
+    margin-top: 140px;
+  }
+
+  #blinking-text {
+    font-size: 25px;
+    color: blue;
+    /* Màu chữ ban đầu */
+    animation: blink 1s infinite, colorChange 2s infinite;
+  }
+
+  @keyframes blink {
+
+    0%,
+    100% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes colorChange {
+    0% {
+      color: blue;
+    }
+
+    25% {
+      color: red;
+    }
+
+    50% {
+      color: green;
+    }
+
+    75% {
+      color: orange;
+    }
+
+    100% {
+      color: blue;
+    }
+  }
+</style>
+<h1 class="text-danger">Giỏ Hàng</h1>
+<div class="container">
+  <table class="table mx-1">
+    <thead class="text-center text-light fs-2 bg-warning">
+      <th scope="col" class="text-center">Sản phẩm</th>
+      <th scope="col">Giá</th>
+      <th scope="col">Số lượng</th>
+      <th scope="col">Thành tiền</th>
+      <th scope="col">Xoá</th>
+    </thead>
+    <tbody class="text-center">
+      <tr ng-repeat="p in cart" class="align-middle text-center">
+        <th scope="row" class="">
+          <div class="d-flex align-items-center">
+            <div class="" style="background-color: lightcyan;">
+              <img class="thumbnail" width="150px" src="{{p.image}}" alt="">
+
+              <div class="text-start">
+                <span class="color-changing-text">{{p.name}}</span><br>
+              </div>
+
+            </div>
+          </div>
+        </th>
+        <td class="" id="blinking-text"><span>{{p.price |number}}</span></td>
+        <td ><input type="number" ng-model="p.quantity" ng-change="updateCartTotal()" min="1" class="form-control form-control-sm w-50 m-auto fs-3">
+        </td>
+        <td class="" id="blinking-text"><span ng-bind="p.price*p.quantity |number"></span></td>
+        <td>
+          <i ng-click="removeCart(p.id)" class="bi bi-trash3"></i>
+        </td>
+
+      </tr>
+
+    </tbody>
+  </table>
+  <p class="text-right color-changing-text fs-3" ng-hide="giohang">Giỏ Hàng Trống</p>
+  <p class="text-right color-changing-text fs-3" style="text-align: right;" ng-hide="tongtien">Tổng Tiền: {{}} {{calculateTotalAmount() | number}} đ</p>
+</div>
+<a href="#!thanhtoan">
+<button  class="btn btn-warning fs-3 text-white ">Thanh Toán: ({{ totalQuantityInCart }} sản phẩm)</button>
+
+</a>
+
+
+
+
+<div class="box-why bg-dark">
+  <div class="why-item">
+    <h2 class="color-changing-text">Đánh giá chất lượng giúp chúng tôi!</h2>
+    <img src="../img/5.jpg" alt="">
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var blinkingText = document.getElementById("blinking-text");
+      setInterval(function () {
+        blinkingText.classList.toggle("blink");
+      }, 500);
+    });
+    
+    function thongbao(){
+      Swal.fire('Thông báo', 'Thanh toán thành công!', 'success');
+    }
+
+  </script>

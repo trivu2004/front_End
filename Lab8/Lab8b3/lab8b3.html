@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Single Page Application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.js"></script>    
+</head>
+
+
+<body ng-app="myapp">
+    <div class="container">
+        <div ng-include="'Header.html'"></div>
+        <div ng-include="'Menu.html'"></div>
+        <div ng-include="'Content.html'"></div>
+        <div ng-include="'Footer.html'"></div>
+    </div>
+    <script src="webapp.js"></script>
+</body>
+
+</html>

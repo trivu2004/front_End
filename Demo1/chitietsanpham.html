@@ -1,0 +1,195 @@
+<style>
+    .timeline-breaker {
+        position: relative;
+        padding: 10px;
+        /* Tuỳ chỉnh padding theo ý bạn */
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        /* Hiệu ứng hover màu nền */
+    }
+
+    .timeline-breaker::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        margin-top: -1px;
+        /* Độ dày của đường line */
+        width: 50px;
+        /* Độ dài của đường line */
+        height: 2px;
+        /* Độ dày của đường line */
+        background-color: #000;
+        /* Màu của đường line */
+        transition: width 0.3s ease;
+        /* Hiệu ứng mở rộng khi hover */
+    }
+
+    .timeline-breaker:hover {
+        background-color: gray;
+        /* Màu nền khi hover */
+        color: white;
+    }
+
+    .timeline-breaker:hover::before {
+        width: 100px;
+        /* Độ dài của đường line khi hover */
+    }
+
+    .img-thumbnail {
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .img-thumbnail:hover {
+        transform: scale(1.1); /* Increase size on hover */
+        transition: transform 0.3s ease; /* Add a smooth transition effect */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+        filter: drop-shadow(10px 7px 10px orange);
+    }
+
+    body {
+        margin-top: 40px;
+    }
+</style>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-7 mt-5">
+            <img src="{{detailPro.image}}" class="img-fluid" alt="" width="100%" height="100%">
+            <div class="mt-3">
+                <a href="#!"> <img src="{{detailPro.thumbnail[0]}}" class="img-thumbnail" alt="Thumbnail"
+                        style="width: 120px; height: 100px;"></a>
+                <a href="#!"><img src="{{detailPro.thumbnail[1]}}" class="img-thumbnail" alt="..."
+                        style="width: 120px; height: 100px; "></a>
+                <a href="#!"><img src="{{detailPro.thumbnail[2]}}" class="img-thumbnail" alt="..."
+                        style="width: 120px; height: 100px;"></a>
+                <a href="#!"><img src="{{detailPro.thumbnail[3]}}" class="img-thumbnail" alt="..."
+                        style="width: 120px; height: 100px;"></a>
+                <a href="#!"><img src="{{detailPro.thumbnail[4]}}" class="img-thumbnail" alt="..."
+                        style="width: 120px; height: 100px;"></a>
+            </div>
+        </div>
+        <div class="col-sm-5 mt-5 ">
+            <div class="card shadow position-relative">
+                <div class="card-body">
+                    <h5 class="card-title color-changing-text1">{{detailPro.name}}</h5>
+                    <p class="color-changing-text1  m-0"><b>Giá: {{detailPro.price}} đ</b></p>
+                    <h5 class="card-title">{{detailPro.khachsan}}: <img src="../img/{{detailPro.imgsao}}.jpg" alt=""></h5>
+                    <p>
+                        <i class="fa-regular fa-clock"></i> Thời gian: {{detailPro.duration}}
+                        <br />
+                        <i class="fa-regular fa-calendar"></i> Ngày đi: {{detailPro.start}}
+                    </p>
+                    <button class="btn btn-warning  text-white" ng-click="addCart(detailPro) ; themvao()">Đặt Tour</button>
+                </div>
+            </div>
+            <div class="card shadow position-relative mt-3">
+                <form id="bookingForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label mt-4">Họ và tên</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Số điện thoại</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tour" class="form-label">Tour muốn đặt</label>
+                        <select class="form-select" id="tour" name="tour" required>
+                            <option value="" disabled selected>Chọn tour</option>
+                            <option value="tour1">Tour 1</option>
+                            <option value="tour2">Tour 2</option>
+                            <!-- Thêm các tour khác vào đây -->
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Lời nhắn</label>
+                        <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <div class="text-center mt-3">
+                        <button class="btn btn-warning  text-white" ng-click="addCart(detailPro)">Đặt Tour</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-7">
+
+        </div>
+    </div>
+    <div class="mt-5 fs-4">
+        <h1 class="color-changing-text1">Mô Tả</h1>
+        <div class="timeline-breaker timeline-breaker-middle d-flex fs-3">Ngày 1</div>
+        <i class="bi bi-cup-hot-fill"></i><i class="bi bi-airplane-fill"></i>
+        <div class="timeline-item-date">CT Tourist</div>
+        <h4 class="timeline-item-title">SYDNEY -&nbsp;WILDLIFE PARK – BLUE MOUNTAIN</h4>
+        <div class="timeline-item-description content"><br>
+            <span>Tour Du Lịch: <strong>{{detailPro.name}}</strong></span>
+            <span class="d-flex timeline-item animated fadeIn de-02">{{detailPro.title}}
+            </span>
+            <span class="d-flex">Dùng bữa trưa tại nhà hàng địa phương. Tiếp tục tham quan:</span>
+            <br>
+            <img src="{{detailPro.thumbnail[1]}}" alt="" width="100%">
+            <br>
+            <ul>
+                <li><strong>Nhà hát Con Sò (Sydney Opera House)</strong> có kiến trúc cực kỳ ấn tượng và nổi tiếng của
+                    Sydney với ba mặt
+                    hướng ra biển.</li>
+                <li><strong>Vườn Bách Thảo (Botanic Garden)</strong>: vườn thực vật được mở cửa từ năm 1816 với diện
+                    tích 30 hectares.</li>
+                <li> <strong>Mrs. Macquaries Chair</strong> để ghi những bức hình đẹp nhất của Cầu cảng Sydney (Sydney
+                    Bridge & Habour).</li>
+                <li> <strong>Darling Habour</strong>: một cảng biển nhộn nhịp nơi có nhiều quán cà phê lãng mạn ngoài
+                    trời nổi tiếng ở
+                    Sydney.
+                </li>
+                <li class="d-flex">Dùng bữa tối tại nhà hàng địa phương.
+                    Về khách sạn nhận phòng, nghỉ ngơi. Nghỉ đêm tại Sydnety.</li>
+                <p><strong>Tối: </strong>Quý khách ăn tối. Nghỉ đêm tại khách sạn hoặc tự do khám phá Sydney về đêm.</p>
+
+
+            </ul>
+
+        </div>
+    </div>
+    <div class="timeline-breaker timeline-breaker-middle d-flex fs-3">Ngày 2</div>
+    <div class="timeline-item animated fadeIn"> <i class="bi bi-cup-hot-fill"></i><i class="bi bi-airplane-fill"></i>
+        <div class="timeline-item-date">CT Tourist</div>
+        <h4 class="timeline-item-title">SYDNEY -&nbsp;WILDLIFE PARK – BLUE MOUNTAIN</h4>
+        <div class="timeline-item-description content"><br>
+
+            <p style="margin-left:5.75pt"><strong>Sáng:</strong>&nbsp; Sau khi dùng điểm tâm sáng, Đoàn khởi hành đi
+                tham quan&nbsp;<strong>Wildlife Park</strong> (Vườn thú hoang dã)&nbsp;– nơi bảo tồn những loại động vật
+                quý hiếm của Australia. Quý khách có thể ngắm nhìn cận cảnh, vui đùa với những chú Kangaroos, đà điểu sa
+                mạc úc, gấu Túi Koala... và chụp hình lưu niệm.</p>
+
+            <p><strong>Trưa:</strong> Sau khi dùng cơm trưa, Đoàn tham quan:</p>
+
+            <p></p>
+            <table align="center" border="0" cellpadding="3" cellspacing="0" class="tplCaption" style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td><a class="groupImg cboxElement"
+                                href="/Uploads/images/ncvy/Blue_Mountains.jpg?width=660"><img src="{{detailPro.thumbnail[2]}}"
+                                    style="width: 100%;"></a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p></p>
+
+            <ul>
+                <li>Khu bảo tồn thiên nhiên <strong>Blue Mountain</strong>&nbsp;– di sản thế giới, nơi còn lưu giữ
+                    nguyên vẹn những nét hoang sơ từ thời thổ dân sinh sống.</li>
+                <li>Tự do chụp hình&nbsp;núi <strong>Ba chị em (Three sisters),</strong> nếu may mắn du khách có thể
+                    chụp được những bức hình cùng với người thổ dân với ống khèn và những giai điệu truyền thống. Trải
+                    nghiệm tàu kéo Sennic world</li>
+            </ul>
+
+            <p><strong>Tối: </strong>Quý khách ăn tối. Nghỉ đêm tại khách sạn hoặc tự do khám phá Sydney về đêm.</p>
+
+        </div>
+    </div>
+</div>
+

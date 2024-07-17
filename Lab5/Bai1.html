@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    </head>
+
+    <body ng-app = "myApp">
+        <br>
+        <div class="container">
+            <div ng-controller="myCtrl1">
+                <form>
+                    <div class="form-group">
+                        <label>Họ Và Tên</label>
+                        <input type="text" ng-model = "student.fullname" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Ngày Sinh:</label>
+                        <input type="text" ng-model = "student.birthday" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Điểm: </label>
+                        <input type="text" ng-model = "student.mark" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-default" ng-click = "save()">Lưu</button>
+                        <button class="btn btn-default" ng-click = "cancel()">Hủy</button>
+                    </div>
+                </form>
+
+            </div>
+            <div ng-controller="myCtrl2">
+                <table class="table">
+                    <tr>
+                        <th>Họ Và Tên:</th>
+                        <th>Ngày Sinh</th>
+                        <th>Điểm:</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>{{students[0].fullname}}</td>
+                        <td>{{students[0].birthday}}</td>
+                        <td>{{students[0].mark}}</td>
+                        <td>
+                            <a href="#" ng-click = "edit(0)">Sửa</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>{{students[1].fullname}}</td>
+                        <td>{{students[1].birthday}}</td>
+                        <td>{{students[1].mark}}</td>
+                        <td>
+                            <a href="#" ng-click = "edit(1)">Sửa</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script>
+            var app = angular.module("myApp",[]);
+            app.controller("myCtrl1",function($scope){
+                $scope.save = function(){
+                    $scope.$parent.students[$scope.$parent.index] = $scope.students;
+                }
+                $scope.cancel = function(){
+                    $scope.$parent.students = angular.copy($scope.$parent.students[$scope.$parent.index]);
+                }
+            });
+            app.controller("myCtrl2",function($scope){
+                $scope.$parent.students = [
+                    {
+                        fullname: "Nguyễn Văn Tèo",
+                        birthday: "20-01-1995",
+                        mark : 8.5
+                    },
+                    {
+                        fullname: "Phạm Thị Nở",
+                        birthday: "15-11-1985",
+                        mark : 5.5
+                    }
+                ];
+                $scope.edit = function(index){
+                    $scope.$parent.index = index;
+                    $scope.$parent.student = angular.copy($scope.$parent.students[index]);
+                }
+            });
+        </script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

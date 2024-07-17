@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đổi mật khẩu</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <form id="changePasswordForm">
+        <div class="mb-3">
+            <label for="currentPassword" class="form-label">Mật khẩu hiện tại</label>
+            <input type="password" class="form-control" id="currentPassword" name="currentPassword" required>
+        </div>
+        <div class="mb-3">
+            <label for="newPassword" class="form-label">Mật khẩu mới</label>
+            <input type="password" class="form-control" id="newPassword" name="newPassword" required>
+        </div>
+        <div class="mb-3">
+            <label for="confirmPassword" class="form-label">Xác nhận mật khẩu mới</label>
+            <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="changePassword()">Đổi mật khẩu</button>
+    </form>
+</div>
+
+<!-- Bootstrap JS (đặt trước jQuery) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    function changePassword() {
+        // Lấy giá trị từ các trường input
+        var currentPassword = $('#currentPassword').val();
+        var newPassword = $('#newPassword').val();
+        var confirmPassword = $('#confirmPassword').val();
+
+        // Kiểm tra xác nhận mật khẩu
+        if (newPassword !== confirmPassword) {
+            alert('Mật khẩu mới và xác nhận mật khẩu không khớp.');
+            return;
+        }
+
+        // Thực hiện xử lý đổi mật khẩu tại đây (ví dụ: gửi yêu cầu đến server)
+
+        // Hiển thị thông báo hoặc chuyển hướng đến trang khác tùy thuộc vào kết quả đổi mật khẩu
+        alert('Đổi mật khẩu thành công!');
+    }
+</script>
+
+</body>
+</html>

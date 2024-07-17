@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="login.css">
+<hr class="mt-5" ng-controller="myCtrl">
+<div class="form-container sign-in-container mt-5">
+    <form name="myForm" novalidate>
+        <h1>Đăng Ký</h1>
+        <div class="social-container">
+            <a href="#" class="social"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="social"><i class="bi bi-google"></i></a>
+            <a href="#" class="social"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <span>or use your account</span>
+        <input placeholder="Email" type="email" ng-model="info.email" name="mail" required/>
+        <span ng-show="myForm.mail.$invalid" class="float-start text-danger">Email không hợp lệ</span>
+        <input type="{{showPassword ? 'text' : 'password'}}" class="input-login-password fs-5" placeholder="Password"
+            ng-model="info.password" />
+        <span ng-hide="info.password.length > 4" class="float-start text-danger">Password lớn hơn 4 ký tự</span>
+        <input type="{{showPassword ? 'text' : 'password'}}" class="input-login-password fs-5" placeholder="Password"
+            ng-model="info.passwordnew" />
+        <span ng-hide="info.password == info.passwordnew" class="float-start text-danger">Password sai</span>
+        <div class="form-group fs-5 mt-5">
+            <input type="checkbox" class="form-check-input float-start" ng-model="showPassword">
+            <label for="" class="float-start mx-3 mt-1 fs-5">Hiện mật khẩu</label>
+            <br>
+        </div>
+
+
+        <div class="form-group fs-5 mt-5">
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Chọn giới tính <span class="text-danger">*</span></label
+                >
+                <input type="radio" name="role" ng-model="role" value="Nam" required />
+                Nam
+                <input type="radio" name="role" ng-model="role" value="Nữ" required />
+                Nữ
+                <div ng-show="myForm.role.$invalid" class="text-danger">
+                  Vui lòng chọn giới tính !
+                </div>
+              </div>
+        </div>
+        <div class="form-group fs-5">
+            <input type="checkbox" class="form-check-input" ng-model="agree">
+            <span class="fs-5">Đồng ý với các điều khoản</span>
+        </div>
+
+        <div class="g-recaptcha" data-sitekey="6LfHPFYpAAAAAKmds8bIMQnUJvlGEXx04sreHrWN"></div>
+        <a href="#!login">Login?</a>
+        <button type="button" ng-click="register()">Đăng ký</button>
+    </form>
+</div>
+
+<!-- Thêm đoạn mã JavaScript sau thẻ </div> đóng cửa container -->
+<script>
+    // Đảm bảo rằng "myCtrl" đã được định nghĩa trong AngularJS
+
+    // Đoạn mã JavaScript bạn đã cung cấp ở đây để xử lý logic của bạn, bao gồm cả hàm register()
+</script>

@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    padding: 20px;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+h1, h2 {
+    color: black;
+}
+.box-why {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.why-item {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+/* Media query for smaller screens (mobile) */
+@media (max-width: 767px) {
+    .why-item {
+        width: 100%; /* Chiếm toàn bộ chiều rộng trên thiết bị di động */
+    }
+}
+.dropdown-menu.show{
+    display: flex !important;
+}
+.dropdown-menu li:first-child a{
+    font-weight: bold;
+
+}
+.dropdown-menu li a{
+    color: gray;
+    padding: 0.5em 1em;
+}
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: orange;
+    }
+    100% {
+        color: red;
+    }
+}
+
+.color-changing-text {
+  animation: colorChange 5s infinite;
+    text-align: center;
+    position: relative;
+}

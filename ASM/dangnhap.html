@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        tyle>body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            /* Light gray background color */
+            margin: 0;
+            /* Remove default margin */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            /* Make the body take full height of the viewport */
+        }
+
+        .container {
+            margin-top: 5%;
+            /* Adjusted margin-top */
+        }
+
+        /* Adjustments for the card */
+        #loginCard {
+            max-width: 400px;
+            margin: auto;
+            background-color: #336699;
+            /* Travel-themed background color */
+            color: #fff;
+            /* Text color on the card */
+            border: none;
+            /* Remove the card border */
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="text-center text-danger">Form Đăng Nhập</h1>
+    <div class="container mt-5">
+        <div class="card" id="loginCard">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <form id="loginForm">
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Tên người dùng</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Mật khẩu</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="button" class="btn btn-light btn-block p-2">Đăng nhập</button>
+                            <button type="button" class="btn btn-light btn-block p-2" data-bs-dismiss="modal"
+                                onclick="closeModal()">Close</button>
+                            <label for="password" class="form-label mx-3 text-light" onclick="dangky()">Bạn chưa có tài
+                                khoản?</label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- Bootstrap JS (đặt trước jQuery) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script>
+        function submitForm() {
+
+            var username = $('#username').val();
+            var password = $('#password').val();
+            alert('Đăng nhập thành công!');
+        }
+        function closeModal() {
+            window.location.href = 'index.html';
+        }
+        function dangky() {
+            window.location.href = 'dangky.html';
+        }
+    </script>
+
+</body>
+
+</html>

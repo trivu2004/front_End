@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="login.css">
+<h2 class="text-danger mt-5">Form Đăng Nhập</h2>
+<div class="container" id="container">
+    <div class="form-container sign-up-container mt-5">
+        <form>
+            <h1 class="mt-5">Create Account</h1>
+            <div class="social-container">
+                <a href="#" class="social"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="social"><i class="bi bi-google"></i></a>
+                <a href="#" class="social"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <span>or use your email for registration</span>
+            <input value="" class="input-login-username fs-5" placeholder="Email" ng-model="info.email" />
+            <input type="{{showPassword ? 'text' : 'password'}}" class="input-login-password fs-5" placeholder="Password" ng-model="info.password" />        
+            <input type="checkbox" class="form-check-input float-start" ng-model="showPassword">
+            <div class="g-recaptcha" data-sitekey="6LfHPFYpAAAAAKmds8bIMQnUJvlGEXx04sreHrWN"></div>
+            <button class="login__signInButton" ng-click="test()">Đăng Nhập</button>
+            <!-- <button type="button" ng-click="register()">Đăng ký</button> -->
+            <a href="#!dangky">Bạn chưa có tài khoản?</a>
+
+        </form>
+    </div>
+</div>

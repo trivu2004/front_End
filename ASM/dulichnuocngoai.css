@@ -1,0 +1,155 @@
+.parallax {
+    /* The image used */
+    background-image: url("https://media.baoquangninh.vn/dataimages/201905/original/images1289196_Cau_Vang_Sun_World_Ba_Na_Hills__6_.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .dropdown-menu.show{
+    display: flex !important;
+}
+.dropdown-menu li:first-child a{
+    font-weight: bold;
+
+}
+.dropdown-menu li a{
+    color: gray;
+    padding: 0.5em 1em;
+}
+  .box-ctblog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-ctblog-grid-left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.item {
+    width: 100%;
+    max-width: 300px; /* Thay đổi kích thước tối đa của mỗi item */
+    margin-bottom: 20px;
+}
+
+.content {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.thumb img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.label i {
+    margin-right: 5px;
+}
+
+.name h3 {
+    margin-top: 10px;
+}
+
+/* Thêm media query để điều chỉnh giao diện trên các thiết bị di động */
+@media (max-width: 767px) {
+    .item {
+        width: 100%; /* Một item trên mỗi dòng trên thiết bị di động */
+        max-width: none; /* Bỏ giới hạn kích thước tối đa */
+    }
+
+    .box-ctblog-grid-left {
+        justify-content: center; /* Canh giữa các item trên thiết bị di động */
+    }
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: gray;
+    color: #fff;
+    padding: 20px 0;
+}
+footer img{
+    background-image: gray;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    text-decoration: none;
+}
+.footer-section ul li :hover {
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-why {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.why-item {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+/* Media query for smaller screens (mobile) */
+@media (max-width: 767px) {
+    .why-item {
+        width: 100%; /* Chiếm toàn bộ chiều rộng trên thiết bị di động */
+    }
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "username" : "admin@gmai.com",
+        "password" : "123456"
+    },
+    {
+        "username" : "tri@gmail.com",
+        "password" : "123456"
+    },
+    {
+        "username" : "teo@gmail.com",
+        "password" : "123456"
+    },
+    {
+        "username" : "ti",
+        "password" : "123456"
+    }
+]
